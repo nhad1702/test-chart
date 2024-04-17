@@ -1,6 +1,7 @@
 .contain {
     display: flex;
     flex-direction: column;
+    padding: 0 30px;
 }
 
 .profile-container {
@@ -16,10 +17,16 @@
     /* justify-content: space-evenly; */
     gap: 100px;
     align-items: center;
-    border: 1px solid #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
+    border-radius: 30px;
     font-weight: 700;
     font-size: 23px;
     line-height: 32px;
+}
+
+.avatar img {
+    border-radius: 15px;
 }
 
 .details {
