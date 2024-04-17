@@ -7,7 +7,7 @@ const user = [
 	  "role": "leader",
 	  "rank": "B",
     "stats": {
-        "Organizational_skill": 5,
+        "organizational_skill": 5,
         "techical_skill": 7,
         "idea_contribution": 10,
         "communication_skill": 9,
@@ -97,6 +97,39 @@ const user = [
       } 
     ]
   },
+  //#################################
+  {
+    "username": "Emilyjones", 
+    "password": "Her123", 
+    "truename": "Emilyjones",
+    "ismale": false, 
+    "role": "Designer", 
+    "rank": "C", 
+    "stats": {
+      "organizational_skill": 10, 
+      "techical_skill": 4, 
+      "idea_contribution": 5, 
+      "communication_skill": 30, 
+      "product_optimization": 2
+    },
+    "tasks": [ 
+      {
+        "content": "Card design", 
+        "rank": "D", 
+        "isdone": true 
+      }, 
+      {
+        "content": "Seminar", 
+        "rank": "D", 
+        "isdone": true
+      }, 
+      { 
+        "content": "Web design",
+        "rank": "C", 
+        "isdone": false
+      } 
+    ]
+  }
 ];
 
 export default user;

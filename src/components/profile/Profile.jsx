@@ -1,7 +1,7 @@
 import React from 'react'
 import './Profile.css'
 import user from './mockData';
-import { ResponsiveContainer, RadarChart, Radar } from 'recharts';
+import { ResponsiveContainer, RadarChart, Radar,  } from 'recharts';
 
 const Profile = () => {
 
@@ -23,16 +23,16 @@ const Profile = () => {
           <div className='details'>
             <div className="left">
               <div className="name">
-                <p>Name: {user.fullName}</p>
+                <p>Name: {user[0].fullName}</p>
               </div>
               <div className="gender">
-                {user.isMale === true ? <p>Gender: Male</p> : <p>Gender: Female</p>}
+                {user[0].isMale === true ? <p>Gender: Male</p> : <p>Gender: Female</p>}
               </div>
               <div className="staff">
-                <p>Role/Dept: {user.role}</p>
+                <p>Role/Dept: {user[0].role}</p>
               </div>
               <div className='process'>
-                <p>Rank: {user.rank}</p>
+                <p>Rank: {user[0].rank}</p>
                 <div className="progress-bar">
                   <progress value="50" max="100"></progress>
                   <p>50/100</p>
@@ -43,11 +43,11 @@ const Profile = () => {
           <div className='stats'>
             <ul>
               <p>Stats</p>
-              <li>Communication skill: {user.stats["communication_skill"]}</li>
-              <li>Idea contribution: {user.stats["idea_contribution"]}</li>
-              <li>Organizational skill: {user.stats["Organizational_skill"]}</li>
-              <li>Product Optimization: {user.stats["product_optimization"]}</li>
-              <li>Technology skill: {user.stats["techical_skill"]}</li>
+              <li>Communication skill: {user[0].stats["communication_skill"]}</li>
+              <li>Idea contribution: {user[0].stats["idea_contribution"]}</li>
+              <li>Organizational skill: {user[0].stats["organizational_skill"]}</li>
+              <li>Product Optimization: {user[0].stats["product_optimization"]}</li>
+              <li>Technology skill: {user[0].stats["techical_skill"]}</li>
             </ul>
           </div>
         </div>

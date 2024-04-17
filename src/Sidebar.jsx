@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillPersonFill, BsListTask, BsClipboard2Pulse, BsFillArchiveFill } from 'react-icons/bs'
 import logo from './assets/logo-white.png'
 
-function Sidebar({openSidebarToggle, OpenSidebar}) {
+function Sidebar({openSidebarToggle}) {
   return (
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
         <div className='sidebar-title'>

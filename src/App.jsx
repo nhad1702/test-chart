@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Sidebar />
       {/* <Home /> */}
-      <Profile />
+      <Profile /> 
       {/* <Task /> */}
     </div>
   )
