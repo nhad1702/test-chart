@@ -1,0 +1,49 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container {
+    display: flex;
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+    align-items: center;
+    border: 1px solid #fff;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.stats {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    ul {
+        list-style: none;
+        li {
+            padding: 10px 0;
+        }
+    }
+}
