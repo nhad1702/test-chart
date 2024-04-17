@@ -1,7 +1,8 @@
 import React from 'react'
 import './Profile.css'
 import user from './mockData';
-import { ResponsiveContainer, RadarChart, Radar,  } from 'recharts';
+import Radars from './chart/Radars'
+import Lines from './chart/Lines';
 
 const Profile = () => {
 
@@ -53,8 +54,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="chart">
-        {/* <Radar data={data} /> */}
-        {/* <Line data={data} /> */}
+        
       </div>
     </div>
   )
